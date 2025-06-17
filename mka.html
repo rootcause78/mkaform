@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCUM 1.0 MKA Başvuru Formu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-6">
+  <div class="w-full max-w-2xl bg-gray-800 p-8 rounded-2xl shadow-xl">
+    <h1 class="text-3xl font-bold mb-6 text-center text-yellow-400">
+      SCUM 1.0 <span class="text-red-500">MKA</span> Başvuru Formu
+    </h1>
+
+    <form action="#" method="POST" class="space-y-5">
+      <div>
+        <label for="isim" class="block mb-1 font-medium">Ad Soyad</label>
+        <input type="text" id="isim" name="isim" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+      </div>
+
+      <div>
+        <label for="yas" class="block mb-1 font-medium">Yaş</label>
+        <input type="number" id="yas" name="yas" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+      </div>
+
+      <div>
+        <label for="tecrube" class="block mb-1 font-medium">SCUM Tecrübeniz (kaç saat?)</label>
+        <input type="text" id="tecrube" name="tecrube" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+      </div>
+
+      <div>
+        <label for="neden" class="block mb-1 font-medium">Neden MKA'ya katılmak istiyorsunuz?</label>
+        <textarea id="neden" name="neden" rows="4" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+      </div>
+
+      <div>
+        <label for="steam" class="block mb-1 font-medium">Steam Profil Linkiniz</label>
+        <input type="url" id="steam" name="steam" placeholder="https://steamcommunity.com/id/kullaniciadiniz" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+      </div>
+
+      <button type="submit" class="w-full py-3 bg-yellow-500 hover:bg-yellow-400 text-black font-semibold rounded-lg transition">Başvuruyu Gönder</button>
+    </form>
+    
+    <p class="text-center mt-6 text-sm text-gray-400">SCUM 1.0 MKA Topluluğuna katıldığın için amına koyayım.</p>
+  </div>
+</body>
+</html>
